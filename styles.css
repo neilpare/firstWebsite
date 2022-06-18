@@ -1,3 +1,8 @@
+html {
+    position: relative;
+    min-height: 100%;
+} /* this solved header and main content overlapping (idk why tho*/
+
 body {
     width: 100%;
     height: 100vh; /* vh stands for viewport height, it simply is the currently visible section "view height" ;) */
@@ -12,6 +17,16 @@ header {
     top: 0px;
     position: fixed;
     width: 100vw;
+    background-color: #2a363b;
+}
+
+.website-motto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    font-style: italic;
+    background-color: #2a363b;
 }
 
 .h1-header {
@@ -25,7 +40,24 @@ header {
 }
 
 .header-div {
-    background-color: #2a363b ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+article {
+    display: block;
+}
+
+.article-section {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #2a363b;
 }
 
 footer {
@@ -33,6 +65,7 @@ footer {
     color: #2a363b;
     background-color: beige;
     position: absolute;
+    left: 0;
     bottom: 0;
     width: 100vw;
 }
@@ -44,6 +77,10 @@ footer {
 }
 
 .footer-div {
+    margin-left: 10px;
+}
+
+.footer-divs {
     border-width: 3px;
     border-right: 1px solid rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -53,3 +90,4 @@ footer {
     display: inline;
     font-family: Helvetica;
 }
+
