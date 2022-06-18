@@ -2,8 +2,8 @@ body {
     width: 100%;
     height: 100vh; /* vh stands for viewport height, it simply is the currently visible section "view height" ;) */
     margin: 0; /* some browsers add horizontal margins, making the page horizontally scrollable, bad! set them to 0! */
-    background-color: #1b1b32; /* maybe change this to just background, since it accepts images arguments, play! */
-    color: #f5f6f7; /* somehow it's obvious that this is referred to text, so text color! (white now :) */
+    background-color: #2a363b; /* maybe change this to just background, since it accepts images arguments, play! */
+    color: #99b898; /* somehow it's obvious that this is referred to text, so text color! (white now :) */
   }
 
 .inline {
