@@ -7,9 +7,11 @@ body {
     font-family: Helvetica;
 }
 
-.inline {
-    display: inline;
-    font-family: Helvetica;
+header {
+    position: sticky;
+    top: 0px;
+    position: fixed;
+    width: 100vw;
 }
 
 .h1-header {
@@ -24,4 +26,18 @@ body {
 
 .header-div {
     background-color: #2a363b ;
+}
+
+footer {
+    font-size: xx-small;
+    color: #2a363b;
+    background-color: beige;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+.inline {
+    display: inline;
+    font-family: Helvetica;
 }
