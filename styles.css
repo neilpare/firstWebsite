@@ -37,6 +37,18 @@ footer {
     width: 100vw;
 }
 
+.column {
+    float: left;
+    width: 32%;
+    position: relative;
+}
+
+.footer-div {
+    border-width: 3px;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
 .inline {
     display: inline;
     font-family: Helvetica;
