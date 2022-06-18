@@ -1,4 +1,26 @@
 body {
     width: 100%;
-    height: 100vh;
+    height: 100vh; /* vh stands for viewport height, it simply is the currently visible section "view height" ;) */
+    margin: 0; /* some browsers add horizontal margins, making the page horizontally scrollable, bad! set them to 0! */
+    background-color: #1b1b32; /* maybe change this to just background, since it accepts images arguments, play! */
+    color: #f5f6f7; /* somehow it's obvious that this is referred to text, so text color! (white now :) */
   }
+
+.inline {
+    display: inline;
+    font-family: Helvetica;
+}
+
+.h1-header {
+    font-family: Helvetica;
+    color:#ff847c;
+}
+
+.h2-header {
+    font-family: monospace;
+    color: #f3cea8;
+}
+
+.header-div {
+    background-color: #2a363b;
+}
