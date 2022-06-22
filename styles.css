@@ -1,7 +1,12 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 html {
     position: relative;
     min-height: 100%;
-} /* this solved header and main content overlapping (idk why tho*/
+} /* this solved header and main content overlapping (idk why tho)*/
 
 body {
     width: 100%;
